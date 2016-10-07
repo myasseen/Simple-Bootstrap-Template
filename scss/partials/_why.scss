@@ -1,0 +1,25 @@
+.why{
+	background-color: $light-bg;
+	color: $why-text-color;
+
+	h1{
+		color: #fff;
+		text-align: center;
+		margin: 0 auto 30px;
+
+		span{
+			font-weight: bold;
+		}
+	}
+
+	ul{
+		list-style: none outside url('../images/check.png');
+		line-height: 30px;
+		padding-left: 30px;
+		margin-bottom: 0;
+
+		li{
+			font-size: 18px;
+		}
+	}
+}

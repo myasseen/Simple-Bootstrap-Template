@@ -1,0 +1,29 @@
+.cards{
+	background-color: #eeeeee;
+	text-align: center;
+
+	.white-box{
+		margin: 0;
+	}
+
+	h3{
+		background-color: #54add7;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 15px;
+		margin: 0;
+	}
+
+	p{
+		color: #6f6f6f;
+		font-size: 13px;
+		padding: 30px 0;
+		margin: 0;
+	}
+
+	a{
+		color: $light-bg;
+		font-size: 13px;
+		font-weight: bold;
+	}
+}

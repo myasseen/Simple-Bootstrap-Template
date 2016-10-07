@@ -1,0 +1,42 @@
+{
+  "name": "Pik-to-chart-UI-dev-take-home-test",
+  "description": "Pik to chart UI dev take home test",
+  "homepage": "http://picktochart.com/",
+  "author": "Mahmoud Yasseen <me@mahmoudyasseen.com> (http://mahmoudyasseen.com)",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "repository": {
+    "type": "bitbucket",
+    "url": ""
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "www": "./www"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-cache": "latest",
+    "gulp-concat": "latest",
+    "gulp-filter": "latest",
+    "gulp-ignore": "latest",
+    "gulp-include": "^2.1.0",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-run-sequence": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uglifycss": "latest",
+    "gulp-uncss": "^1.0.5",
+  },
+  "scripts": {
+    "postinstall": "gulp",
+    "start": "gulp build"
+  }
+}

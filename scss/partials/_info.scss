@@ -1,0 +1,19 @@
+.info{
+	background-color: $dark-bg;
+	// height: 120px;
+	// position: relative;
+
+	h1{
+		text-align: center;
+		color: #fff;
+		white-space: nowrap;
+		margin: auto;
+		// position: absolute;
+		// top: 50%;
+		// transform: translateY(-50%);
+
+		span{
+			font-weight: bold;
+		}
+	}
+}
