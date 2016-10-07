@@ -1,5 +1,12 @@
 // FONTS
-@include fontFace('OpenSans','../fonts/open-sans-regular/OpenSans-Regular');
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/open-sans-regular/OpenSans-Regular.eot");
+  src: url("../fonts/open-sans-regular/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-regular/OpenSans-Regular.woff") format("woff"), url("../fonts/open-sans-regular/OpenSans-Regular.ttf") format("truetype"), url("../fonts/open-sans-regular/OpenSans-Regular.svg#OpenSans") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
 
 // COLORS
 $light-bg: #6ec3ed;
