@@ -6,8 +6,10 @@
 	h1{
 		text-align: center;
 		color: #fff;
-		white-space: nowrap;
 		margin: auto;
+		@media (min-width: 1200px){
+			white-space: nowrap;
+		}
 		// position: absolute;
 		// top: 50%;
 		// transform: translateY(-50%);

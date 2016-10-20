@@ -26,4 +26,11 @@
 		font-size: 13px;
 		font-weight: bold;
 	}
+
+	@media (max-width: 990px){
+		.col-md-3{
+			padding-bottom: 15px;
+			padding-top: 15px;
+		}
+	}
 }

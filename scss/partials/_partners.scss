@@ -3,4 +3,39 @@
 		width: 85%;
 		margin: 30px auto;
 	}
+
+	.logo-sprite {
+		background: white url(../images/client-logos.png);
+		height: 83px;
+		width: 190px;
+		margin: 15px auto;
+
+	}
+	.col-md-3:nth-child(-n+4) .logo-sprite { margin-top: 0;}
+	.col-md-3:nth-child(n+5) .logo-sprite { margin-bottom: 0;}
+	
+	.mckinsey { background-position: -9px 0px; }
+	.coca-cola { background-position: -246px 0px; }
+	.adidas { background-position: -482px 0px; }
+	.bnp-paribas { background-position: -9px -150px; }
+	.royal-mail { background-position: -246px -150px; }
+	.anglo-american { background-position: -482px -150px; }
+	.three-i { background-position: -9px -299px; }
+	.sab-miller { background-position: -246px -299px; }
+	.eib { background-position: -482px -299px; }
+	.dupoint { background-position: -9px -446px; }
+	.dfid { background-position: -246px -446px; }
+	.urenco { background-position: -482px -446px; }
+	.old-mutual { background-position: -9px -596px; }
+	.us-aid { background-position: -246px -596px; }
+	.unhcr { background-position: -482px -596px; }
+	.skandia { background-position: -9px -745px; }
+	.zain { background-position: -246px -745px; }
+	.westpac { background-position: -482px -745px; }
+	.telkom { background-position: -9px -896px; }
+	.sasol { background-position: -246px -894px; }
+	.fnb { background-position: -482px -896px; }
+	.engen { background-position: -9px -1042px; }
+	.afrox { background-position: -246px -1042px; }
+	.abitibi-bowater { background-position: -482px -1042px; }
 }
