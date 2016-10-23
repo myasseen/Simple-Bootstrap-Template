@@ -7556,87 +7556,39 @@ a:hover {
 }
 .partners .logo-sprite {
   background: white url(../images/client-logos.png);
-  height: 83px;
-  width: 190px;
+  height: 130px;
+  width: 200px;
   margin: 15px auto;
 }
-.partners .col-md-3:nth-child(-n+4) .logo-sprite {
+.partners [class*="col-"]:nth-child(-n+4) .logo-sprite {
   margin-top: 0;
 }
-.partners .col-md-3:nth-child(n+5) .logo-sprite {
+.partners [class*="col-"]:nth-child(n+5) .logo-sprite {
   margin-bottom: 0;
 }
-.partners .mckinsey {
-  background-position: -9px 0px;
+.partners .google {
+  background-position: 0 0;
 }
-.partners .coca-cola {
-  background-position: -246px 0px;
+.partners .bootstrap {
+  background-position: -200px 0;
 }
-.partners .adidas {
-  background-position: -482px 0px;
+.partners .behance {
+  background-position: -400px 0;
 }
-.partners .bnp-paribas {
-  background-position: -9px -150px;
+.partners .github {
+  background-position: -600px 0;
 }
-.partners .royal-mail {
-  background-position: -246px -150px;
+.partners .shopify {
+  background-position: 0 -130px;
 }
-.partners .anglo-american {
-  background-position: -482px -150px;
+.partners .wordpress {
+  background-position: -200px -130px;
 }
-.partners .three-i {
-  background-position: -9px -299px;
+.partners .jquery {
+  background-position: -400px -130px;
 }
-.partners .sab-miller {
-  background-position: -246px -299px;
-}
-.partners .eib {
-  background-position: -482px -299px;
-}
-.partners .dupoint {
-  background-position: -9px -446px;
-}
-.partners .dfid {
-  background-position: -246px -446px;
-}
-.partners .urenco {
-  background-position: -482px -446px;
-}
-.partners .old-mutual {
-  background-position: -9px -596px;
-}
-.partners .us-aid {
-  background-position: -246px -596px;
-}
-.partners .unhcr {
-  background-position: -482px -596px;
-}
-.partners .skandia {
-  background-position: -9px -745px;
-}
-.partners .zain {
-  background-position: -246px -745px;
-}
-.partners .westpac {
-  background-position: -482px -745px;
-}
-.partners .telkom {
-  background-position: -9px -896px;
-}
-.partners .sasol {
-  background-position: -246px -894px;
-}
-.partners .fnb {
-  background-position: -482px -896px;
-}
-.partners .engen {
-  background-position: -9px -1042px;
-}
-.partners .afrox {
-  background-position: -246px -1042px;
-}
-.partners .abitibi-bowater {
-  background-position: -482px -1042px;
+.partners .bitbucket {
+  background-position: -600px -130px;
 }
 
 .footer {
