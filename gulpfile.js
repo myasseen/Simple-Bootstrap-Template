@@ -11,8 +11,8 @@ var url   = './', // Local Development URL for BrowserSync. Change as-needed.
 		],
 
 		src = {
-			scss: 'assets/scss/**/*.scss',
-			css:  'assets/css/**/*.css',
+			scss: 'scss/**/*.scss',
+			css:  'css/**/*.css',
 			html: '**/*.html'
 		}
 
@@ -69,14 +69,14 @@ gulp.task('styles', function () {
 	.pipe(autoprefixer('last 2 version', '> 1%', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
 	.pipe(sourcemaps.write('.'))
 	.pipe(plumber.stop())
-	.pipe(gulp.dest('assets/css/'))
+	.pipe(gulp.dest(src.css))
 	.pipe(filter(src.css)) // Filtering stream to only css files
 	// .pipe(reload({stream:true})) // Inject Styles when style file is created
 	.pipe(rename({ suffix: '.min' }))
 	.pipe(minifycss({
 		maxLineLen: 80
 	}))
-	.pipe(gulp.dest('assets/css/'))
+	.pipe(gulp.dest(src.css))
 	.pipe(reload({stream:true})) // Inject Styles when min style file is created
 	// .pipe(browserSync.stream({match: '**/*.css'}));
 	// .pipe(browserSync.stream());
